@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #
-awk '{count[$1" "$9]++} END {for (combo in count) {split(combo, parts, " "); print count[combo] " " parts[1] " " parts[2]}}' apache-access.log | sort -nr
+awk 'NF >= 9 && $9 ~ /^[0-9]{3}$/ {count[$1 " " $9]++} END {for (combo in count) {split(combo, parts, " "); print count[combo], parts[1], parts[2]}}' apache-access.log | sort -nr
