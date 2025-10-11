@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+shopt -s nullglob
+mapfile -t files < <(printf '%s\n' ./* | sort -n)
+for file in "${files[@]}"
+do
+    base=$(basename "$file")
+    echo "${base#*-}"
+done
