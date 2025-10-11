@@ -1,10 +1,18 @@
-# Basics Project
+# alu-shell: Loops, Conditions, and Parsing
 
-This directory contains introductory shell scripts for learning Linux commands.
+This repository contains Bash scripts demonstrating loops, condition statements, and parsing in shell scripting, as part of the ALX curriculum.
 
-## Files
-- **0-current_working_directory**: Prints the absolute path of the current working directory.
-- **README.md**: Project description and file list.
+## Requirements
+- All scripts are interpreted on Ubuntu 20.04 LTS.
+- Use #!/usr/bin/env bash as shebang.
+- Pass Shellcheck (v0.7.0) without errors.
+- No awk allowed.
+
+## Directory Structure
+- **loops_conditions_and_parsing/**: Contains task scripts.
+  - 1-for_best_school: Displays "Best School" 10 times using a for loop.
+
+More tasks will be added as completed (e.g., while loops, if statements, cut command, etc.).
 
 ## Author
-Created as part of the *alu-shell* project.
+Your Name (or GitHub username)
