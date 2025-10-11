@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#
+awk '{count[$1" "$9]++} END {for (combo in count) print count[combo], combo}' apache-access.log | sort -nr
