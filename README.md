@@ -12,7 +12,7 @@ This repository contains Bash scripts demonstrating loops, condition statements,
 - **loops_conditions_and_parsing/**: Contains task scripts.
   - 1-for_best_school: Displays "Best School" 10 times using a for loop.
   - 2-while_best_school: Displays "Best School" 10 times using a while loop.
-
+  - 3-until_best_school: Displays "Best School" 10 times using an until loop.
 More tasks will be added as completed (e.g., until loops, if statements, cut command, etc.).
 
 ## Author
